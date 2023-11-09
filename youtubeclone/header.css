@@ -1,0 +1,207 @@
+.header{
+  height:55px;
+  display:flex;
+  flex:1;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  position:fixed;
+  top:0px;
+  left:1px;
+  right:1px;
+  background-color:white ;
+  border:2px;
+  margin-bottom: 7px;
+  z-index:100;
+  border:10px;
+  border-color: blue;
+
+}
+.left{
+
+ 
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  
+
+}
+.middle{
+
+ flex-direction: row;
+  display:flex;
+  align-items:center ;
+  flex:1;
+  margin-left:70px;
+  margin-right:50px;
+  max-width: 650px;
+  
+
+}
+
+
+
+.right{
+  display:flex;
+  justify-content:space-between;
+  margin-top:3px;
+  align-items: center;
+  width:250px;
+ 
+  flex-shrink: 0;
+}
+
+
+.menubar{
+  height:30px;
+  padding-left:22px;
+  display:inline-block;
+  
+
+}
+.youtubelogo{
+  height:30px;
+  margin-left:60px;
+  display:inline-block;
+
+}
+.search{
+  height:34px;
+  border-radius: 1px 15px 15px 1px;
+  border-width: 1px;
+  border-color: gray;
+  background-color: rgb(235, 239, 239);
+  cursor:pointer;
+
+ 
+}
+.ssearch{
+  height:30px;
+  flex:1;
+  font-size: 16px;
+  border-width: 1px;
+  width:0px;
+  padding-left:12px;
+  border-color: gray;
+border-radius: 15px 2px 2px 15px;
+background-color: rgb(235, 239, 239);
+cursor:pointer;
+}
+.ssearch::placeholder{
+  font-size: 16px;
+  font-family: Roboto;
+  
+
+}
+.voice-bt{
+  height:30px;
+  width:30px;
+  border-radius: 15px 2px 2px 15px;
+  background-color: rgb(235, 239, 239);
+  cursor:pointer;
+}
+
+.voice{
+  
+  height:34px;
+  width:50px;
+  border-radius: 25px 25px 25px 25px;
+  border-width: 1px;
+  border-color: rgb(187, 16, 16);
+}
+.search-bt{
+  height:30px;
+  width:30px;
+ 
+}
+body{
+  padding-top: 50px;
+  padding-left:90px;
+  margin:0px;
+  background-color:rgb(255, 255, 255) ;
+  margin-bottom: 500px;
+}
+.sidebar{
+  display:flex;
+  flex:1;
+  background-color:white;
+  
+  position: fixed;
+  top:50px;
+  left:0px;
+  bottom:0px;
+  padding-top:30px;
+  padding-left:50px;
+
+}
+.sidebar-tool{
+  width:20px;
+  height:20px;
+  padding:0px;
+}
+.time{
+  background-color: black;
+  color:white;
+  bottom:0px;
+  right:10px;
+  margin-right: 2px;
+  border-radius: 2px;
+  position: absolute;
+  font-size: 12px;
+  padding-right:5px;
+  padding-left:5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius:2px;
+
+
+}
+.notifyno{
+  position: relative;
+
+}
+.notino{
+  position:absolute;
+  top:0px;
+  right:0px;
+  background-color: red;
+  color:white;
+  padding-left:4px;
+  padding-right:4px;
+
+  border-radius: 15px;
+  border-color: black;
+  border:3px;
+
+}
+.sidebar{
+  padding-left:2px;
+  display:flex;
+  flex-direction:column;
+  z-index:99;
+  
+  
+}
+.word{
+  font-size:11px;
+  align-items:center;
+  padding:px;
+}
+.individualbox{
+
+  display: flex;
+  flex-direction:column ;
+  padding-bottom:5px;
+  align-items: center;
+  cursor:pointer;
+
+}
+.individualbox:hover{
+  background-color: rgb(235, 239, 239);
+
+}
+.rightbt:hover{
+  background-color: rgb(235, 239, 239);
+  cursor:pointer;
+}
+

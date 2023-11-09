@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="grid">
+  <div class="box">
+  <img class="its"src="authorpic/author2.jpg" >
+  <p class="author">Oliver</p>
+  <img  class="mutfrd"src="authorpic/author1.jpg">
+  <p class="frds">2 mutual friends</p>
+  <button class="bt">Add Friends</button>
+</div>
+
+<div class="box">
+  <img class="its"src="authorpic/author1.jpg" >
+  <p class="author">Oliver</p>
+  <img  class="mutfrd"src="authorpic/author2.jpg">
+  <p class="frds">2 mutual friends</p>
+  <button class="bt">Add Friends</button>
+</div>
+
+<div class="box">
+  <img class="its"src="authorpic/author2.jpg" >
+  <p class="author">Oliver</p>
+  <img  class="mutfrd"src="authorpic/author1.jpg">
+  <p class="frds">2 mutual friends</p>
+  <button class="bt">Add Friends</button>
+</div>
+</div>
+<style>
+button{
+  background-color:rgb(0, 115, 255);
+  color:white;
+  border:none;
+  padding:5px;
+  margin:2px;
+  border-radius:2px;
+  font-size: 10px;
+  font-weight: bold;
+}
+div{
+  background-color:whitesmoke;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border:2px;
+  border-color: black;
+  width:110px;
+  display:inline-block;
+}
+.its{
+  object-fit: cover;
+  width:110px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+}
+.author{
+  font-weight: bold;
+  margin:0px;
+  vertical-align: middle;
+
+}
+.frds{
+  font-size: 10px;
+  display:inline-block;
+  padding-top: 20;
+  margin:0px;
+  padding:0px;
+
+}
+.mutfrd{
+  width:20px;
+  padding-top: 20;
+  vertical-align: middle;
+  margin:2px;
+  border-radius: 40px;
+  display:inline-block;
+   
+
+}
+.box{
+  border-color: black;
+}
+.grid{
+  display:grid;
+  grid-template-columns: 100px 100px 100px;
+  column-gap: 20px;
+  align-items:center;
+}
+
+  </style>
+</body>
+</html>
